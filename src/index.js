@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import store from './Redux/Store/userStore';
+import io from 'socket.io-client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const socket = io('http://localhost:3001');
 root.render(
   <React.StrictMode>
+     <Provider store={store}>
     <App />
+    </Provider>
   </React.StrictMode>
 );
 

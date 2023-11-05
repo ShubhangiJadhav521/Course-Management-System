@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Course Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application for managing and enrolling in courses. This project includes features like user authentication, course listing, course details, student dashboard, and more.
+## Project Description
 
-## Available Scripts
+The Course Management System is a web application that allows students to browse, enroll in, and manage courses. It offers features such as course listing with search and pagination, course details, student dashboard, user authentication, and more. This system provides an efficient way for educational institutions to manage their course offerings and for students to access and enroll in courses.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- User Authentication: Secure login and registration for students.
+- Course Listing: Browse a list of available courses.
+- Course Details: Get in-depth information about each course.
+- Student Dashboard: Track enrolled courses and mark them as completed.
+- Backend APIs: Implement RESTful APIs for course retrieval, enrollment, and more.
+- Pagination: Limit the number of courses shown per page.
+- Search Options: Search for courses by various criteria.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up the Course Management System:
 
-### `npm test`
+1. Clone the repository to your local machine.
+2. Install the required dependencies using npm or yarn.
+3. Set up the backend server (include instructions if needed).
+4. Start the frontend and backend servers.
+5. Access the application through your web browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Once the application is running, users can do the following:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Log in or register for a new account.
+- Browse the list of available courses and view their details.
+- Enroll in courses of interest.
+- Access the student dashboard to manage enrolled courses.
+- Search for specific courses using various search criteria.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project includes RESTful APIs for various functionalities. Refer to the API documentation for detailed information on available endpoints, request formats, and responses. Authentication is required for specific API endpoints.
+For detailed information about the API endpoints and how to use them, please refer to our [API Documentation](../server/docs/API_Documentation.md) (./server/docs/API_Documentation.md).
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies and Tools Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Course Management System is built using the following technologies and tools:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Frontend:
+  - React: A JavaScript library for building user interfaces.
+  - Material-UI (MUI): A popular React UI framework for creating responsive and stylish designs.
+  - Axios: A promise-based HTTP client for making API requests.
+  - React Router: A library for routing and navigation in React applications.
+  - JavaScript: The primary programming language for the frontend.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Backend:
+  - Node.js: A runtime environment for executing JavaScript on the server.
+  - Express.js: A web application framework for building APIs and web applications.
+  - MongoDB: A NoSQL database for storing course and user data.
+  - JWT (JSON Web Tokens): Used for user authentication and authorization.
+  - JavaScript: The primary programming language for the backend.
 
-## Learn More
+- Git: A distributed version control system for tracking changes in the project.
+- GitHub: A web-based platform for hosting and collaborating on Git repositories.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
